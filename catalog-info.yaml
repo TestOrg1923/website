@@ -1,0 +1,14 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: service3
+  description: This is a private demo service
+  tags:
+    - nodejs
+    - backend
+  annotations:
+    sonarqube.org/project-key: TestOrg1923_repo3_AYLuEzBXpl-OSC-IurZP
+spec:
+  type: service
+  lifecycle: dev
+  owner: team
