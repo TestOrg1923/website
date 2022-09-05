@@ -2,12 +2,15 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: website
+  description: This is a website
   tags:
     - angular
   annotations:
+    sonarqube.org/project-key: TestOrg1923_website
     backstage.io/kubernetes-id: website
+    
 spec:
   type: website
   lifecycle: production
-  owner: dev-team
+  owner: team
   system: Multifornecedor
