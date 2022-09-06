@@ -8,7 +8,7 @@ metadata:
   annotations:
     sonarqube.org/project-key: TestOrg1923_website
     backstage.io/kubernetes-id: website
-    
+    github.com/project-slug: TestOrg1923/website
 spec:
   type: website
   lifecycle: production
